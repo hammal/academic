@@ -308,3 +308,15 @@
     - name: Hampus Malmberg
   role: creator
   link: https://isi.ee.ethz.ch/teaching/pps/elab.html
+
+
+- name: Electronic Circuits & Signals Exploration Laboratory
+  teacher: Hampus Malmberg
+  type: project and seminar
+  date:
+    year: 2024
+    autumn: False
+  supervisors:
+    - name: Hampus Malmberg
+  role: creator
+  link: https://isi.ee.ethz.ch/teaching/pps/elab.html

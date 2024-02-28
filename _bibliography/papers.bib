@@ -1,16 +1,20 @@
 ---
 ---
 @article{MFR:2023,
-   ABBR       = {arXiv},
+   ABBR       = {TCAS-I},
    AUTHOR     = {Hampus Malmberg
                AND Fredrik Feyling
                AND José M.~de~la Rosa},
    TITLE      = {A Control-Bounded Quadrature Leapfrog ADC},
-   YEAR       = {2023},
-   ARXIV      = {2310.18110},
-   MONTH      = {November},
-   ABSTRACT   = {In this paper, the design flexibility of the control-bounded analog-to-digital converter principle is demonstrated. A band-pass analog-to-digital converter is considered as an application and case study. We show how a low-pass control-bounded analog-to-digital converter can be translated into a band-pass version where the guaranteed stability, converter bandwidth, and signal-to-noise ratio are preserved while the center frequency for conversion can be positioned freely. The proposed converter is validated with behavioral simulations on several filter orders, center frequencies, and oversampling ratios. Additionally, we consider an op-amp circuit realization where the effects of first-order op-amp non-idealities are shown. Finally, robustness against component variations is demonstrated by Monte Carlo simulations.},
+   YEAR       = {2024},
+   JOURNAL    = {IEEE Transactions on Circuits and Systems - I: Regular Papers}
+   MONTH      = {February},
+   ABSTRACT   = {In this paper, the design flexibility of the controlbounded analog-to-digital converter principle is demonstrated. A band-pass analog-to-digital converter is considered as an application and case study. We show how a low-pass controlbounded analog-to-digital converter can be translated into a band-pass version where the guaranteed stability, converter bandwidth, and signal-to-noise ratio are preserved while the center frequency for conversion can be positioned freely. The proposed converter is validated with behavioral simulations on several filter orders, center frequencies, and oversampling ratios. Additionally, we consider an op-amp circuit realization where the effects of first-order op-amp non-idealities are shown. Finally, robustness against component variations is demonstrated by Monte Carlo simulations.},
    SELECTED   = {true},
+   NUMBER     = {},
+   VOLUME     = {},
+   PAGES      = {1-14},
+   DOI        = {10.1109/TCSI.2024.3366330},
 }
 @article{FMWLY:2023,
    ABBR       = {VLSI},
@@ -21,11 +25,11 @@
                AND Trond Ytterdal},
    JOURNAL    = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
    TITLE      = {Design and Analysis of the Leapfrog Control-Bounded A/D Converter}, 
-   YEAR       = {2023},
-   MONTH      = {October},
-   VOLUME     = {},
-   NUMBER     = {},
-   PAGES      = {1-10},
+   YEAR       = {2024},
+   MONTH      = {January},
+   VOLUME     = {32},
+   NUMBER     = {1},
+   PAGES      = {79-88},
    DOI        = {10.1109/TVLSI.2023.3320279},
    SELECTED   = {true},
    ABSTRACT   = {This article presents analytical tools for high-level design of the leapfrog (LF) control-bounded analog-to-digital converter (CBADC). We derive closed-form design equations for parameterizing the analog system for a target signal-to-noise ratio (SNR) and bandwidth. Furthermore, we show how the parameterization can be modified to compensate for finite amplifier gain-bandwidth product (GBWP) and to control the signal swing at different nodes of the system. Behavioral circuit simulations are used to compare the LF CBADC to relevant continuous-time sigma–delta modulators (CT- $\Sigma\Delta$ Ms) in terms of nominal performance and sensitivity to component variations, clock jitter, and finite GBWP. Simulations show that the nominal performance of the LF is similar to that of a CT- $\Sigma\Delta$ M of the same loop-filter order and with the same number of quantization levels. The simple, modular structure, analytical stability guarantee, and single-bit quantizers make the LF an interesting alternative to conventional CT- $\Sigma\Delta$ Ms.},

@@ -1,3 +1,24 @@
+- title: Modeling 2D-NMR-Signals using Factor Graphs
+  type: Semester project
+  students:
+    - first: Nando
+      last: Waser
+  year: 2024
+  fall_semester: False
+  supervisors:
+    - first: Hans-Andrea
+      last: Loeliger
+    - first: Hampus
+      last: Malmberg
+    - first: Nicolas
+      last: Schmid
+    - first: Hugo
+      last: Aguettaz
+  professor:
+    first: Hans-Andrea
+    last: Loeliger
+    doctor: true
+    
 - title: Quadrature Control Bounded Analog-to-Digital Converters
   type: Semester project
   students:
